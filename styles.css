@@ -1,0 +1,163 @@
+
+.colored-section {
+background-color: #202020;
+text-align: center;
+color: white;
+
+}
+.White-section {
+  background-color: white;
+  color: #202020;
+}
+.container-fluid {
+  padding: 2% 13%;
+}
+.container-fluid.a {
+  padding: 0.5% 13% 2%;
+}
+#cta .container-fluid {
+  padding: 0.5% 13%;
+}
+/* Navbar */
+.nav-item {
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff9234;
+}
+.navbar-collapse {
+  text-align: left;
+}
+.navbar-brand {
+  padding-left: 30px;
+}
+/* About Us */
+#About-us {
+  padding-left: 60px;
+  padding-top: 50px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.Pricing-column {
+  color: white;
+  padding: 20px;
+  box-shadow: 0 0 20px 0 rgba(255,114,0, 0.3);
+  text-align: center;
+  width: 200px;
+  height: 400px;
+
+}
+.book {
+  color: #ff9234;
+}
+.Title{
+  font-family: 'Merienda One', cursive;
+}
+.Sudo {
+  font-family: 'Merienda', cursive;
+}
+.Quote {
+  color: grey;
+}
+
+.cover {
+  margin-left: -150px;
+  width: 600px;
+  margin-top: 70px;
+
+}
+.Dotted {
+  border: dotted grey 10px;
+  border-bottom: none;
+  width: 30%;
+}
+.Styled {
+  width: 50%;
+  height: 15px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.paragraph-description {
+  font-size: 20px;
+  margin:  20px 60px;
+  color: #838383;
+}
+/* Cars */
+.car-text {
+  font-size: 30px;
+  color: #838383;
+  font-family: 'Merriweather', serif;
+}
+h3 {
+  font-family: "Montserrat-Bold";
+}
+.Cars-title {
+  font-size: 50px;
+  color: #ff8b00;
+}
+/* Luxury Cars  */
+
+.Car-width{
+ width: 50%;
+ height: 290px;
+}
+
+.Car-width2{
+ width: 60%;
+ height: 340px;
+}
+.Luxu-logo {
+  width: 150px;
+}
+.affro-logo {
+  width: 130px;
+}
+.Pricing-column h4 {
+  font-family: 'Merienda', cursive;
+  font-size: 30px;
+}
+footer a {
+  color: #ff8b00;
+  margin:  20px;
+}
+footer a:hover {
+  color: orange;
+}
+.Location {
+  color: grey;
+  font-size: 15px;
+}
+@media (max-width: 990px) {
+  #About-us {
+    padding-top: 20px;
+    text-align: center;
+    padding-left: auto;
+    margin-bottom: 20px;
+  }
+  .cover {
+    width: 600px;
+    margin-top: auto;
+    margin-left: auto;
+
+  }
+  .navbar-brand {
+    padding-left: 0px;
+  }
+  .Car-width{
+   width: 45%;
+   height: 180px;
+  }
+  .Car-width2{
+   width: 60%;
+   height: 250px;
+  }
+  .Pricing-column h4 {
+    font-size: 24px;
+  }
+  .Pricing-column {
+    padding: 20px 5px;
+  }
+
+}
